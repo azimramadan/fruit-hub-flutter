@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:fruit_hub/core/routing/app_router.dart';
 
 void main() {
-  runApp(const FruitHub());
+  runApp(const FruitHubApp());
 }
 
-class FruitHub extends StatelessWidget {
-  const FruitHub({super.key});
+class FruitHubApp extends StatelessWidget {
+  const FruitHubApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('FruitHub'))),
+      routerConfig: AppRouter.router,
     );
   }
 }
