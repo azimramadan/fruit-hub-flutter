@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  // Primary (Green)
-  static const Map<int, Color> primary = {
+  // Primary (Primary)
+  static const Map<int, Color> green = {
     50: Color(0xFFEEFBEA),
     100: Color(0xFFDDF7D4),
     200: Color(0xFFBBEFA9),
@@ -17,8 +17,8 @@ class AppColors {
     900: Color(0xFF112B08),
   };
 
-  // Secondary (Orange)
-  static const Map<int, Color> secondary = {
+  // Secondary (Secondary)
+  static const Map<int, Color> orange = {
     50: Color(0xFFFEF6E7),
     100: Color(0xFFFDECCE),
     200: Color(0xFFFADA9E),
@@ -31,8 +31,8 @@ class AppColors {
     900: Color(0xFF312002),
   };
 
-  // Neutral (Grayscale)
-  static const Map<int, Color> neutral = {
+  // Neutral (Neutral)
+  static const Map<int, Color> grayscale = {
     50: Color(0xFFF2F3F3),
     100: Color(0xFFE4E6E7),
     200: Color(0xFFCACECE),
@@ -63,6 +63,7 @@ class AppColors {
   static const Color textDark = Color(0xFF0C0D0D);
   static const Color textMedium = Color(0xFF616A6B);
   static const Color textLight = Color(0xFF949D9E);
+  static const Color white = Color(0xFFFFFFFF);
 
   // Status
   static const Color success = Color(0xFF43AC20);

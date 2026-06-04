@@ -1,5 +1,5 @@
-import 'package:fruit_hub/features/onboarding/presentation/pages/onboarding_pages.dart';
-import 'package:fruit_hub/features/splash/splash_page.dart';
+import 'package:fruit_hub/features/onboarding/presentation/pages/onboarding_page.dart';
+import 'package:fruit_hub/features/splash/presentation/pages/splash_page.dart';
 import 'package:go_router/go_router.dart';
 
 class AppRouter {

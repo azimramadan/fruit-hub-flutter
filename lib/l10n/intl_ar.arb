@@ -1,1 +1,41 @@
-{}
+{
+  "@@locale": "ar",
+
+  "appName": "فروت هاب",
+
+  "onboardingSkip": "تخط",
+  "onboardingGetStarted": "ابدأ الان",
+
+  "onboardingTitle1": "مرحبًا بك في FruitHUB",
+  "onboardingSubtitle1": "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
+
+  "onboardingTitle2": "ابحث وتسوق",
+  "onboardingSubtitle2": "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية.",
+
+  "loginTitle": "تسجيل الدخول",
+  "loginEmail": "البريد الإلكتروني",
+  "loginPassword": "كلمة المرور",
+  "loginButton": "دخول",
+  "loginNoAccount": "ليس لديك حساب؟",
+  "loginSignup": "إنشاء حساب",
+  "loginForgotPassword": "نسيت كلمة المرور؟",
+
+  "signupTitle": "إنشاء حساب",
+  "signupName": "الاسم الكامل",
+  "signupEmail": "البريد الإلكتروني",
+  "signupPassword": "كلمة المرور",
+  "signupButton": "إنشاء حساب",
+  "signupHaveAccount": "لديك حساب بالفعل؟",
+  "signupLogin": "تسجيل الدخول",
+
+  "resetPasswordTitle": "إعادة تعيين كلمة المرور",
+  "resetPasswordSubtitle": "أدخل بريدك الإلكتروني وسنرسل لك رابط إعادة التعيين.",
+  "resetPasswordEmail": "البريد الإلكتروني",
+  "resetPasswordButton": "إرسال رابط الإعادة",
+  "resetPasswordSuccess": "تم إرسال الرابط! تحقق من بريدك الإلكتروني.",
+
+  "errorRequired": "هذا الحقل مطلوب",
+  "errorInvalidEmail": "أدخل بريدًا إلكترونيًا صحيحًا",
+  "errorWeakPassword": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+  "errorGeneral": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+}

@@ -1,1 +1,41 @@
-{}
+{
+  "@@locale": "en",
+
+  "appName": "FruitHub",
+
+  "onboardingSkip": "Skip",
+  "onboardingGetStarted": "Get Started",
+
+  "onboardingTitle1": "Welcome to FruitHUB",
+  "onboardingSubtitle1": "Discover a unique shopping experience with FruitHUB. Explore our wide collection of premium fresh fruits and get the best deals.",
+
+  "onboardingTitle2": "Search & Shop",
+  "onboardingSubtitle2": "We offer you the best handpicked fruits. Browse details, photos and reviews to make sure you pick the perfect fruit.",
+
+  "loginTitle": "Login",
+  "loginEmail": "Email",
+  "loginPassword": "Password",
+  "loginButton": "Login",
+  "loginNoAccount": "Don't have an account?",
+  "loginSignup": "Sign Up",
+  "loginForgotPassword": "Forgot Password?",
+
+  "signupTitle": "Create Account",
+  "signupName": "Full Name",
+  "signupEmail": "Email",
+  "signupPassword": "Password",
+  "signupButton": "Sign Up",
+  "signupHaveAccount": "Already have an account?",
+  "signupLogin": "Login",
+
+  "resetPasswordTitle": "Reset Password",
+  "resetPasswordSubtitle": "Enter your email and we'll send you a reset link.",
+  "resetPasswordEmail": "Email",
+  "resetPasswordButton": "Send Reset Link",
+  "resetPasswordSuccess": "Reset link sent! Check your email.",
+
+  "errorRequired": "This field is required",
+  "errorInvalidEmail": "Enter a valid email",
+  "errorWeakPassword": "Password must be at least 8 characters",
+  "errorGeneral": "Something went wrong. Please try again."
+}
