@@ -8,5 +8,3 @@ A modern Flutter e-commerce application for exploring and purchasing fresh fruit
 
 ![Fruit Hub Cover](app_cover.png)
 
-## 🚀 Status
-Currently under development.
