@@ -17,7 +17,7 @@ class _OnboardingPageBodyState extends State<OnboardingPageBody> {
     OnboardingPageModel(
       title: S.of(context).onboardingTitle1,
       subtitle: S.of(context).onboardingSubtitle1,
-      imagePath: AppAssets.imagesOnboarding1,
+      imagePath: AppAssets.imagesOnboarding1Svg,
       imageBackgroundPath: AppAssets.imagesOnboarding1Background,
     ),
     OnboardingPageModel(

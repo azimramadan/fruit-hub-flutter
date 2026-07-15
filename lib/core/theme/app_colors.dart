@@ -70,4 +70,9 @@ class AppColors {
   static const Color error = Color(0xFFD32F2F);
   static const Color warning = Color(0xFFC2820A);
   static const Color info = Color(0xFF2D9F5D);
+
+  static const Color textFieldFillColor = Color(0xFFF9FAFA);
+  static const Color textFieldBorderColor = Color(0xFFE6E9EA);
+  static const Color mainBlack40 = Color(0xFFC9CECF);
+  static const Color mainBlack20 = Color(0xFFDDDFDF);
 }

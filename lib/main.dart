@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fruit_hub/core/routing/app_router.dart';
 import 'package:fruit_hub/core/services/shared_pref_service.dart';
+import 'package:fruit_hub/core/theme/app_theme.dart';
 import 'package:fruit_hub/generated/l10n.dart';
 import 'package:intl/intl.dart';
 
@@ -20,6 +21,7 @@ class FruitHubApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
+      theme: AppTheme.lightTheme,
       locale: const Locale('ar'),
       localizationsDelegates: [
         S.delegate,
