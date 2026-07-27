@@ -78,14 +78,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
       "إعادة تعيين كلمة المرور",
     ),
-    "signupButton": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
+    "signupButton": MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
     "signupEmail": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "signupHaveAccount": MessageLookupByLibrary.simpleMessage(
       "لديك حساب بالفعل؟",
     ),
     "signupLogin": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
-    "signupName": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
+    "signupName": MessageLookupByLibrary.simpleMessage("الاسم كامل"),
     "signupPassword": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
-    "signupTitle": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
+    "signupTitle": MessageLookupByLibrary.simpleMessage("حساب جديد"),
   };
 }

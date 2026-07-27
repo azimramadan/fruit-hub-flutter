@@ -1,4 +1,5 @@
 import 'package:fruit_hub/features/auth/presentation/pages/login_page.dart';
+import 'package:fruit_hub/features/auth/presentation/pages/signup_page.dart';
 import 'package:fruit_hub/features/onboarding/presentation/pages/onboarding_page.dart';
 import 'package:go_router/go_router.dart';
 
@@ -18,7 +19,7 @@ class AppRouter {
       GoRoute(
         path: splash,
         name: 'splash',
-        builder: (context, state) => const LoginPage(),
+        builder: (context, state) => const SignupPage(),
       ),
       GoRoute(
         path: onboarding,
@@ -30,11 +31,11 @@ class AppRouter {
         name: 'login',
         builder: (context, state) => const LoginPage(),
       ),
-      // GoRoute(
-      //   path: signup,
-      //   name: 'signup',
-      //   builder: (context, state) => const SignupPage(),
-      // ),
+      GoRoute(
+        path: signup,
+        name: 'signup',
+        builder: (context, state) => const SignupPage(),
+      ),
       // GoRoute(
       //   path: resetPassword,
       //   name: 'reset-password',

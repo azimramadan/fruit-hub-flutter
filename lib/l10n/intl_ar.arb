@@ -23,11 +23,11 @@
   "loginUsingFacebook": "تسجيل الدخول بواسطة فيسبوك",
   "loginUsingApple": "تسجيل الدخول بواسطة أبل",
 
-  "signupTitle": "إنشاء حساب",
-  "signupName": "الاسم الكامل",
+  "signupTitle": "حساب جديد",
+  "signupName": "الاسم كامل",
   "signupEmail": "البريد الإلكتروني",
   "signupPassword": "كلمة المرور",
-  "signupButton": "إنشاء حساب",
+  "signupButton": "إنشاء حساب جديد",
   "signupHaveAccount": "لديك حساب بالفعل؟",
   "signupLogin": "تسجيل الدخول",
 
