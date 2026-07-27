@@ -159,6 +159,36 @@ class S {
     );
   }
 
+  /// `Login with Google`
+  String get loginUsingGoogle {
+    return Intl.message(
+      'Login with Google',
+      name: 'loginUsingGoogle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Facebook`
+  String get loginUsingFacebook {
+    return Intl.message(
+      'Login with Facebook',
+      name: 'loginUsingFacebook',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Apple`
+  String get loginUsingApple {
+    return Intl.message(
+      'Login with Apple',
+      name: 'loginUsingApple',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Create Account`
   String get signupTitle {
     return Intl.message(

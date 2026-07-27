@@ -46,6 +46,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "loginPassword": MessageLookupByLibrary.simpleMessage("Password"),
     "loginSignup": MessageLookupByLibrary.simpleMessage("Sign Up"),
     "loginTitle": MessageLookupByLibrary.simpleMessage("Login"),
+    "loginUsingApple": MessageLookupByLibrary.simpleMessage("Login with Apple"),
+    "loginUsingFacebook": MessageLookupByLibrary.simpleMessage(
+      "Login with Facebook",
+    ),
+    "loginUsingGoogle": MessageLookupByLibrary.simpleMessage(
+      "Login with Google",
+    ),
     "onboardingGetStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
     "onboardingSkip": MessageLookupByLibrary.simpleMessage("Skip"),
     "onboardingSubtitle1": MessageLookupByLibrary.simpleMessage(

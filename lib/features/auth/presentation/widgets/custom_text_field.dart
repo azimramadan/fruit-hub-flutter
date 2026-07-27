@@ -1,3 +1,5 @@
+//TODO: Expline why we need to use FocusNode and why we need to use setState in the listener
+
 import 'package:flutter/material.dart';
 import 'package:fruit_hub/core/theme/app_border_radius.dart';
 import 'package:fruit_hub/core/theme/app_colors.dart';

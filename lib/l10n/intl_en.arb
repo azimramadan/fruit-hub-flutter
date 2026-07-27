@@ -19,6 +19,10 @@
   "loginNoAccount": "Don't have an account?",
   "loginSignup": "Sign Up",
   "loginForgotPassword": "Forgot Password?",
+  "loginUsingGoogle": "Login with Google",
+  "loginUsingFacebook": "Login with Facebook",
+  "loginUsingApple": "Login with Apple",
+
 
   "signupTitle": "Create Account",
   "signupName": "Full Name",
