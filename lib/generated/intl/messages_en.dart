@@ -65,6 +65,16 @@ class MessageLookup extends MessageLookupByLibrary {
       "Welcome to FruitHUB",
     ),
     "onboardingTitle2": MessageLookupByLibrary.simpleMessage("Search & Shop"),
+    "otpVerificationSubtitle": MessageLookupByLibrary.simpleMessage(
+      "Enter the OTP sent to your phone number.",
+    ),
+    "otpVerificationTitle": MessageLookupByLibrary.simpleMessage(
+      "OTP Verification",
+    ),
+    "phoneNumberHintText": MessageLookupByLibrary.simpleMessage(
+      "Enter your phone number",
+    ),
+    "resendOtpTextButton": MessageLookupByLibrary.simpleMessage("Resend OTP"),
     "resetPasswordButton": MessageLookupByLibrary.simpleMessage(
       "Send Reset Link",
     ),
@@ -87,5 +97,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "signupName": MessageLookupByLibrary.simpleMessage("Full Name"),
     "signupPassword": MessageLookupByLibrary.simpleMessage("Password"),
     "signupTitle": MessageLookupByLibrary.simpleMessage("Create Account"),
+    "verifyOtpButton": MessageLookupByLibrary.simpleMessage("Verify OTP"),
   };
 }

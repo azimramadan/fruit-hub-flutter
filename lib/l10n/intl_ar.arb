@@ -31,11 +31,18 @@
   "signupHaveAccount": "لديك حساب بالفعل؟",
   "signupLogin": "تسجيل الدخول",
 
-  "resetPasswordTitle": "إعادة تعيين كلمة المرور",
-  "resetPasswordSubtitle": "أدخل بريدك الإلكتروني وسنرسل لك رابط إعادة التعيين.",
+  "resetPasswordTitle": "نسيان كلمة المرور",
+  "resetPasswordSubtitle": "لا تقلق ، ما عليك سوى كتابة بريدك الإلكتروني وسنرسل رمز التحقق.",
   "resetPasswordEmail": "البريد الإلكتروني",
-  "resetPasswordButton": "إرسال رابط الإعادة",
+  "resetPasswordButton": "نسيت كلمة المرور",
   "resetPasswordSuccess": "تم إرسال الرابط! تحقق من بريدك الإلكتروني.",
+  "phoneNumberHintText": "أدخل بريدك الإلكتروني",
+
+  "otpVerificationTitle": "التحقق من الرمز",
+  "otpVerificationSubtitle": "أدخل الرمز المكون من 6 أرقام الذي أرسلناه إلى بريدك الإلكتروني.",
+"verifyOtpButton" : "تحقق من الرمز",
+"resendOtpTextButton" : "إعادة إرسال الرمز",
+
 
   "errorRequired": "هذا الحقل مطلوب",
   "errorInvalidEmail": "أدخل بريدًا إلكترونيًا صحيحًا",

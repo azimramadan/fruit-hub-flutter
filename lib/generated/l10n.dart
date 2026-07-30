@@ -284,6 +284,56 @@ class S {
     );
   }
 
+  /// `Enter your phone number`
+  String get phoneNumberHintText {
+    return Intl.message(
+      'Enter your phone number',
+      name: 'phoneNumberHintText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `OTP Verification`
+  String get otpVerificationTitle {
+    return Intl.message(
+      'OTP Verification',
+      name: 'otpVerificationTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter the OTP sent to your phone number.`
+  String get otpVerificationSubtitle {
+    return Intl.message(
+      'Enter the OTP sent to your phone number.',
+      name: 'otpVerificationSubtitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verify OTP`
+  String get verifyOtpButton {
+    return Intl.message(
+      'Verify OTP',
+      name: 'verifyOtpButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resend OTP`
+  String get resendOtpTextButton {
+    return Intl.message(
+      'Resend OTP',
+      name: 'resendOtpTextButton',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `This field is required`
   String get errorRequired {
     return Intl.message(

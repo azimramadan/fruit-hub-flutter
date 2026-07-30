@@ -37,6 +37,14 @@
   "resetPasswordEmail": "Email",
   "resetPasswordButton": "Send Reset Link",
   "resetPasswordSuccess": "Reset link sent! Check your email.",
+  "phoneNumberHintText": "Enter your phone number",
+
+"otpVerificationTitle": "OTP Verification",
+"otpVerificationSubtitle": "Enter the OTP sent to your phone number.",
+"verifyOtpButton" : "Verify OTP",
+"resendOtpTextButton" : "Resend OTP",
+
+
 
   "errorRequired": "This field is required",
   "errorInvalidEmail": "Enter a valid email",

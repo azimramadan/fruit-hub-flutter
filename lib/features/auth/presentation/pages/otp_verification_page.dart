@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fruit_hub/core/constants/app_assets.dart';
 import 'package:fruit_hub/core/theme/app_colors.dart';
-import 'package:fruit_hub/features/auth/presentation/widgets/reset_password_page_body.dart';
+import 'package:fruit_hub/features/auth/presentation/widgets/otp_verification_page_body.dart';
 import 'package:fruit_hub/generated/l10n.dart';
 
-class ResetPasswordPage extends StatelessWidget {
-  const ResetPasswordPage({super.key});
+class OtpVerificationPage extends StatelessWidget {
+  const OtpVerificationPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class ResetPasswordPage extends StatelessWidget {
       appBar: AppBar(
         title: Padding(
           padding: const EdgeInsets.only(top: 16.0),
-          child: Text(S.of(context).resetPasswordTitle),
+          child: Text(S.of(context).otpVerificationTitle),
         ),
 
         leading: Padding(
@@ -30,7 +30,7 @@ class ResetPasswordPage extends StatelessWidget {
           ),
         ),
       ),
-      body: const ResetPasswordPageBody(),
+      body: const OtpVerificationPageBody(),
     );
   }
 }

@@ -75,4 +75,5 @@ class AppColors {
   static const Color textFieldBorderColor = Color(0xFFE6E9EA);
   static const Color mainBlack40 = Color(0xFFC9CECF);
   static const Color mainBlack20 = Color(0xFFDDDFDF);
+  static const Color mainWhite = Color(0xFFF1F1F5);
 }

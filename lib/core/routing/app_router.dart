@@ -1,4 +1,6 @@
 import 'package:fruit_hub/features/auth/presentation/pages/login_page.dart';
+import 'package:fruit_hub/features/auth/presentation/pages/otp_verification_page.dart';
+import 'package:fruit_hub/features/auth/presentation/pages/reset_password_page.dart';
 import 'package:fruit_hub/features/auth/presentation/pages/signup_page.dart';
 import 'package:fruit_hub/features/onboarding/presentation/pages/onboarding_page.dart';
 import 'package:go_router/go_router.dart';
@@ -11,6 +13,7 @@ class AppRouter {
   static const String login = '/login';
   static const String signup = '/signup';
   static const String resetPassword = '/reset-password';
+  static const String otpVerification = '/otp-verification';
 
   static final GoRouter router = GoRouter(
     initialLocation: splash,
@@ -19,7 +22,7 @@ class AppRouter {
       GoRoute(
         path: splash,
         name: 'splash',
-        builder: (context, state) => const SignupPage(),
+        builder: (context, state) => const OtpVerificationPage(),
       ),
       GoRoute(
         path: onboarding,
@@ -36,11 +39,16 @@ class AppRouter {
         name: 'signup',
         builder: (context, state) => const SignupPage(),
       ),
-      // GoRoute(
-      //   path: resetPassword,
-      //   name: 'reset-password',
-      //   builder: (context, state) => const ResetPasswordPage(),
-      // ),
+      GoRoute(
+        path: resetPassword,
+        name: 'reset-password',
+        builder: (context, state) => const ResetPasswordPage(),
+      ),
+      GoRoute(
+        path: otpVerification,
+        name: 'otp-verification',
+        builder: (context, state) => const OtpVerificationPage(),
+      ),
     ],
   );
 }

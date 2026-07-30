@@ -63,20 +63,32 @@ class MessageLookup extends MessageLookupByLibrary {
       "مرحبًا بك في FruitHUB",
     ),
     "onboardingTitle2": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
+    "otpVerificationSubtitle": MessageLookupByLibrary.simpleMessage(
+      "أدخل الرمز المكون من 6 أرقام الذي أرسلناه إلى بريدك الإلكتروني.",
+    ),
+    "otpVerificationTitle": MessageLookupByLibrary.simpleMessage(
+      "التحقق من الرمز",
+    ),
+    "phoneNumberHintText": MessageLookupByLibrary.simpleMessage(
+      "أدخل بريدك الإلكتروني",
+    ),
+    "resendOtpTextButton": MessageLookupByLibrary.simpleMessage(
+      "إعادة إرسال الرمز",
+    ),
     "resetPasswordButton": MessageLookupByLibrary.simpleMessage(
-      "إرسال رابط الإعادة",
+      "نسيت كلمة المرور",
     ),
     "resetPasswordEmail": MessageLookupByLibrary.simpleMessage(
       "البريد الإلكتروني",
     ),
     "resetPasswordSubtitle": MessageLookupByLibrary.simpleMessage(
-      "أدخل بريدك الإلكتروني وسنرسل لك رابط إعادة التعيين.",
+      "لا تقلق ، ما عليك سوى كتابة بريدك الإلكتروني وسنرسل رمز التحقق.",
     ),
     "resetPasswordSuccess": MessageLookupByLibrary.simpleMessage(
       "تم إرسال الرابط! تحقق من بريدك الإلكتروني.",
     ),
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
-      "إعادة تعيين كلمة المرور",
+      "نسيان كلمة المرور",
     ),
     "signupButton": MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
     "signupEmail": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
@@ -87,5 +99,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "signupName": MessageLookupByLibrary.simpleMessage("الاسم كامل"),
     "signupPassword": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "signupTitle": MessageLookupByLibrary.simpleMessage("حساب جديد"),
+    "verifyOtpButton": MessageLookupByLibrary.simpleMessage("تحقق من الرمز"),
   };
 }

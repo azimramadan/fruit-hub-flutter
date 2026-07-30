@@ -4,6 +4,8 @@ class AppAssets {
   
   static const String imagesApple = "assets/images/apple.svg";
 
+  static const String imagesArrowBack = "assets/images/arrow_back.svg";
+
   static const String imagesFacebook = "assets/images/facebook.svg";
 
   static const String imagesGoogle = "assets/images/google.svg";
